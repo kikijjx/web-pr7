@@ -1,0 +1,13 @@
+<h3>
+    {{page_name}}
+</h3>
+<div class="container">
+    <h1>{{h_name}}</h1>
+    {{#each blocks}}
+        <div class="card">
+            <h5>{{title}}</h5>
+            <p>{{content}}</p>
+            <p>{{#if is_active}} ACTIVE {{else}} NOT ACTIVE {{/if}}</p>
+        </div>
+    {{/each}}
+</div>

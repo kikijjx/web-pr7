@@ -1,0 +1,21 @@
+{
+  "name": "pr5",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "handlebars": "^4.7.7",
+    "jquery": "^3.6.0",
+    "parcel-transformer-hbs": "^1.0.4",
+    "popper.js": "^1.12.9"
+  }
+}
